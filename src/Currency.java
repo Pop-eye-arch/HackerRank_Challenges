@@ -1,9 +1,7 @@
 import java.util.*;
 import java.text.*;
 
-public class Currency {
-
-    public static void main(String[] args) {
+    void main() {
 /*
 *       this works with java 7
 *  Scanner scanner = new Scanner(System.in);
@@ -44,5 +42,5 @@ public class Currency {
                 System.out.println("China: " + china.format(payment));
                 System.out.println("France: " + france.format(payment));
             }
-        }
+
 
